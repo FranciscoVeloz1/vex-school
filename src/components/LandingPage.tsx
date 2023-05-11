@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 
-const Home = () => {
+const LandingPage = () => {
   return (
     <Box textAlign="center">
       <Flex direction="column" align="center" justify="center" minHeight="90vh">
@@ -41,4 +41,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default LandingPage;

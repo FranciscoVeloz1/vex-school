@@ -10,7 +10,6 @@ import {
   DrawerCloseButton,
   Text,
   Flex,
-  Box,
 } from "@chakra-ui/react";
 
 interface Props {
@@ -36,7 +35,7 @@ const Sidebar = ({ isOpen, onClose, btnRef }: Props) => {
       <DrawerOverlay />
       <DrawerContent>
         <DrawerCloseButton />
-        <DrawerHeader>Óptica Lagos</DrawerHeader>
+        <DrawerHeader>Escuela VEX</DrawerHeader>
 
         <DrawerBody>
           <Flex direction="column" pb="5">
@@ -46,6 +45,8 @@ const Sidebar = ({ isOpen, onClose, btnRef }: Props) => {
 
             <SideLink href="/programming">Curso de programación</SideLink>
             <SideLink href="/design">Curso de diseño</SideLink>
+            <SideLink href="/git">Curso de Git y GitHub</SideLink>
+            <SideLink href="/git">Curso de metodologías ágiles</SideLink>
           </Flex>
         </DrawerBody>
       </DrawerContent>

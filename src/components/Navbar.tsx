@@ -12,7 +12,7 @@ const Navbar = ({ btnRef, onOpen }: Props) => {
     <Box bg="teal" py={3}>
       <Flex justifyContent="space-between" alignItems="center" w="90%" m="auto">
         <Text fontSize="xl" color="white">
-          <Link to="/">Óptica Lagos</Link>
+          <Link to="/">Escuela VEX</Link>
         </Text>
 
         <Button ref={btnRef} bgColor="white" onClick={onOpen}>

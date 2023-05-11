@@ -5,3 +5,39 @@
 .link:hover {
   color: #151010;
 }
+
+/* Base Button Styles */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Blue.500 Color Scheme */
+.button-blue-500 {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+/* Hover State */
+.button-blue-500:hover {
+  background-color: #2563eb;
+}
+
+/* Active/Focus State */
+.button-blue-500:active,
+.button-blue-500:focus {
+  background-color: #1d4ed8;
+}
+
+/* Disabled State */
+.button-blue-500:disabled {
+  background-color: #a5bffc;
+  cursor: not-allowed;
+}
