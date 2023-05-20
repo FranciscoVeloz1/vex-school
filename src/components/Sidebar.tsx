@@ -35,7 +35,9 @@ const Sidebar = ({ isOpen, onClose, btnRef }: Props) => {
       <DrawerOverlay />
       <DrawerContent>
         <DrawerCloseButton />
-        <DrawerHeader>Escuela VEX</DrawerHeader>
+        <DrawerHeader color="blue.500">
+          Ar<span className="txt-pink">Byte</span>
+        </DrawerHeader>
 
         <DrawerBody>
           <Flex direction="column" pb="5">

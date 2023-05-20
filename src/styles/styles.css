@@ -3,7 +3,7 @@
 }
 
 .link:hover {
-  color: #151010;
+  color: #a7a7a7;
 }
 
 /* Base Button Styles */
@@ -40,4 +40,12 @@
 .button-blue-500:disabled {
   background-color: #a5bffc;
   cursor: not-allowed;
+}
+
+.txt-blue {
+  color: #008dd2;
+}
+
+.txt-pink {
+  color: #d46484;
 }

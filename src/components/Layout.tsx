@@ -22,7 +22,7 @@ const Layout = ({ children }: props) => {
         py={3}
         justifyContent="center"
         alignItems="space-between"
-        w="90%"
+        w={{base: "90%", lg: "80%"}}
         m="auto"
       >
         {children}
