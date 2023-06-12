@@ -1,4 +1,4 @@
-import Render from "../../img/Render.jpg";
+import Render from "../../img/RenderAA3.png";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
 
@@ -9,6 +9,10 @@ const Info = () => {
       gap={{ base: 4, lg: 20 }}
       alignItems="center"
     >
+      <Box width="full">
+        <Image src={Render} width="full" />
+      </Box>
+
       <Flex direction="column" gap={4}>
         <Box>
           <Text
@@ -26,23 +30,19 @@ const Info = () => {
         <Flex alignItems="center" gap={4}>
           <ChevronRightIcon boxSize="10" color="blue.500" />
           <Text fontSize="xl" color="gray.500">
-            ¡Bienvenido a la escuela VEX! Ofrecemos cursos en VEXcode IQ,
-            Autodesk Inventor, Git y GitHub, y metodologías ágiles para.
+            Aprende las bases de la programación orientada objetos desde la
+            comodidad de tu casa solo con una laptop y conexión a internet.
           </Text>
         </Flex>
 
         <Flex alignItems="center" gap={4}>
           <ChevronRightIcon boxSize="10" color="blue.500" />
           <Text fontSize="xl" color="gray.500">
-            ¡Bienvenido a la escuela VEX! Ofrecemos cursos en VEXcode IQ,
-            Autodesk Inventor, Git y GitHub, y metodologías ágiles para.
+            Después aplica los conocimientos adquiridos en el mundo de la
+            robótica, donde con el IDE VEXcode IQ aprenderás a programar robots.
           </Text>
         </Flex>
       </Flex>
-
-      <Box width="full">
-        <Image src={Render} width="full" transform="scaleX(-1)" />
-      </Box>
     </Grid>
   );
 };

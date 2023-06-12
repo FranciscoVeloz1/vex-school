@@ -9,7 +9,7 @@ interface Props {
 
 const Navbar = ({ btnRef, onOpen }: Props) => {
   return (
-    <Box bg="white" py={3}>
+    <Box py={3}>
       <Flex
         justifyContent="space-between"
         alignItems="center"

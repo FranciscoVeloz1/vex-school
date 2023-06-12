@@ -6,7 +6,7 @@ import { Divider, Flex } from "@chakra-ui/react";
 
 const Home = () => {
   return (
-    <Flex direction="column" gap={{ base: "70px", lg: "100px" }}>
+    <Flex direction="column" mt={70} gap={{ base: "70px", lg: "100px" }}>
       <Showcase />
       <Divider />
       <Cards />

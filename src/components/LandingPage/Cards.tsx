@@ -12,9 +12,9 @@ const Cards = () => {
         <UnlockIcon boxSize={8} color="blue.500" />
         <Text fontSize="3xl">Desbloquea</Text>
         <Text color={"gray.500"}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet
-          iure dolorum sint quibusdam molestiae magni nulla, beatae in.
-          Veritatis.
+          ¡Descubre tu potencial en la programación! Desbloquea tu creatividad,
+          construye el futuro y conviértete en un maestro del código. ¡Inicia
+          hoy mismo!
         </Text>
       </Flex>
 
@@ -22,19 +22,19 @@ const Cards = () => {
         <CalendarIcon boxSize={8} color="blue.500" />
         <Text fontSize="3xl">Administra</Text>
         <Text color={"gray.500"}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet
-          iure dolorum sint quibusdam molestiae magni nulla, beatae in.
-          Veritatis.
+          ¡Aprende a liderar proyectos de robótica! Descubre cómo administrar
+          equipos, diseñar prototipos y llevar tus ideas a la realidad.
+          ¡Inscríbete ahora!
         </Text>
       </Flex>
 
       <Flex direction="column" gap={2} textAlign="center" alignItems="center">
         <StarIcon boxSize={8} color="blue.500" />
-        <Text fontSize="3xl">Brilla</Text>
+        <Text fontSize="3xl">Logra</Text>
         <Text color={"gray.500"}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet
-          iure dolorum sint quibusdam molestiae magni nulla, beatae in.
-          Veritatis.
+          ¡Con el conocimiento adquirido, alcanzarás resultados sorprendentes!
+          Abre las puertas al éxito y conviértete en un líder del futuro. ¡No te
+          lo pierdas!
         </Text>
       </Flex>
     </Grid>
